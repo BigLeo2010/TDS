@@ -14,3 +14,6 @@ appsettings.json linguist-generated
 
 # Принудительно зафиксировать главный язык как C# (для Unity)
 *.cs linguist-language=C#
+Build 09.07.2026/** linguist-documentation=true
+Build 09.07.2026/** linguist-generated=true
+*.zip binary
