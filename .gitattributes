@@ -1,7 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-# Скрыть ShaderLab и HLSL из полоски языков репозитория
+# Скрыть ASP.NET и файлы веб-конфигураций
+*.config linguist-generated
+*.csproj linguist-generated
+*.sln linguist-generated
+appsettings.json linguist-generated
+
+# Скрыть шейдеры (ShaderLab и HLSL)
 *.shader linguist-vendored
 *.hlsl linguist-vendored
 *.compute linguist-vendored
 *.cginc linguist-vendored
+
+# Принудительно зафиксировать главный язык как C# (для Unity)
+*.cs linguist-language=C#
